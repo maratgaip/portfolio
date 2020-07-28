@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+main {
+    background-color: lightgrey;
+    float:left;
+    width: calc(100% - 150px);
+
+}
+aside {
+    float:left;
+    width: 150px;
+}
