@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 body {
+    font-family: 'Mulish', sans-serif;
     margin: 0;
+    padding-left: 10px;
+    background-color: lightgray;
 }
 main {
     background-color: lightgrey;
     float:left;
-    width: calc(100% - 150px);
+    width: calc(100% - 300px);
 
 }
 aside {
     float:left;
-    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
 }
+
+img {
+    width:60%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav i {
+    display: inline-block;
+    width:20px;
+    margin-right: 5px;
+}
+
+a:hover {
+    color: #009688;
+}
+
+nav i {
+    padding-right: 10px;
+}
+
+.icons {
+    font-size: 20px;
+}
+
